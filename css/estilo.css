@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2? family = Poppins: wght @ 500 & display = swap'); 
+:root{
+    --cor-cinza: #FFEFD5;
+    --cor-cinzacl: #FFDAB9;
+   --cor-pro: #424242;
+   --cor-fundo: #FFC0CB;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header img{
+   border-radius: 500px;
+    height: 200px;
+    border: solid 5px white;
+    box-shadow: 0 0 15px rebeccapurple; 
+     
+}
+#profissao{
+    padding: 1rem;
+    color:  var(--cor-pro);
+}
+header{
+    text-align: center;
+    background-color: var(--cor-cinza);
+    padding: 2rem;
+}
+#seguidores-seguindo{
+    background-color:  var(--cor-cinzacl);
+   display: flex;
+   padding: 2rem;
+   justify-content: center;
+}
+#seguidores{
+    padding-right: 70px;
+}
+.numeros{
+   font-size: 30px;
+}
+.texto{
+    font-size: 20px;
+
+}
+#sobre{
+    text-align: center;
+    background-color:  var(--cor-cinza);
+    padding: 2rem;
+
+}
+#sob{
+    padding: 2rem;
+    font-size: 20px;
+}
+#seguir{
+   
+    text-align: center;
+   padding: 2rem;
+}
+#seguir a{
+    background: linear-gradient(to bottom, var(--cor-pro), var(--cor-fundo));
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 2rem;
+    letter-spacing: 8px;
+    font-weight: bold;
+    border-radius: 100px;
+   text-decoration: none;
+   color: black;
+}
+@media screen and (min-width: 960px){
+    body{
+        margin: 0 auto;
+    }
+    header{
+        display: flex;
+    }
+   #nome{
+       flex: 2;
+       padding-right: 10rem;
+       padding-top: 3rem;
+   }
+   #seguir{
+       padding: 3rem;
+   }  
+   #sobre{
+      padding: 1rem;
+   }
+}
